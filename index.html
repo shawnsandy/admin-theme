@@ -35,9 +35,8 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-
-                    <a href="#">
+                <li class="sidebar-brand menu-toggle">
+                    <a href="#" class="">
                         <i class="fa fa-bars"></i> <span class="nav-text"> Start Bootstrap</span>
                     </a>
                 </li>
@@ -151,7 +150,7 @@
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
         $(".nav-text").toggle();
-        $(".sidebar-nav li").toggleClass("text-center");
+//        $(".sidebar-nav li").toggleClass("text-center");
         $(".sidebar-nav i").fadeIn();
 
     });
