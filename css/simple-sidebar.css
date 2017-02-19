@@ -137,6 +137,12 @@ html, body {
 .nav-text {
     display: none;
 }
+
+#dashboard.container-fluid {
+    padding: 0 20px 0 20px;
+}
+
+
 @media(min-width:768px) {
 
     #wrapper {
